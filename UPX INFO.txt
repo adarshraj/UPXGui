@@ -1,0 +1,27 @@
+MPRESS 0.99
+------------------------------------------------------------------
+
+	* MPRESS is a free, high-performance executable packer for PE32/PE32+/.NET executable formats!
+	* MPRESS makes programs and libraries smaller, and decrease start time when the application loaded from a slow 
+	  removable media or from the network. It uses in-place decompression technique, which allows to decompress 
+	  the executable without memory overhead or other drawbacks; it also protects programs against reverse engineering by non-professional
+	  hackers. Programs compressed with MPRESS run exactly as before, with no runtime performance penalties.
+
+MPRESS Features
+----------------
+    * Advanced compression of .NET executable files (anyCPU,x86,AMD64,IA64 EXE)
+    * Support for MS Framework 1.0/1.1/2.0/3.0
+    * Does not require .NET Framework to be installed
+    * Advanced compression of PE32/PE32+ (AMD64) executable files (EXE, DLL, OCX, etc.)
+    * In-place decompression
+    * Static TLS support
+    * Very fast decompression: ~210 MB/sec on an AMD 2500+
+    * Strip sensitive information (relocation, debug information, exceptions, etc.)
+    * Compression of program code, data, and resources
+    * Completely transparent, self-contained operation with UNICODE support
+    * Command line interface allows to use MPRESS from a batch or from a make file
+    * Full Windows 9x/NT/2000/XP/2003/Vista/2008 compatibility
+    
+Web
+---------------- 
+ 	* http://www.matcode.com/mpress.htm    
